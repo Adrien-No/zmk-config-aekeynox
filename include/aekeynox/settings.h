@@ -150,7 +150,7 @@
 // Uncomment the following line to enable the Callum variant of the previous
 // `VIM_NAVIGATION` option. Both options are mutually exclusive.
 
-// #define CALLUM_NAVIGATION
+#define CALLUM_NAVIGATION
 
 // [Experimental]
 // Uncomment the following line to enable the "mod-hold behavior" on the left
