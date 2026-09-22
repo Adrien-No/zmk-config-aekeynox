@@ -108,8 +108,8 @@
       display-name = "CalTee";
       bindings = <SELENIUM_KEYMAP_BINDINGS(
         &trans  ,  &vim_prev    &kp LS(TAB)  &kp TAB      &vim_next     &trans   ,   &kp HOME &kp PG_DN &kp PG_UP &kp END &trans    ,  &trans ,
-        &trans  ,  &EZ_SK(LSFT) &EZ_SK(LGUI) &EZ_SK(LCTL) &EZ_SK(LALT)  &trans   ,   &trans    &kp LEFT &kp DOWN &kp UP  &kp RIGHT  ,  &trans ,
-        &trans  ,  X_UNDO       X_CUT        X_COPY       X_PASTE       X_REDO   ,   &trans    &trans   &trans   &trans     &trans  ,  &trans ,
+        &trans  ,  X_ALL &EZ_SK(LGUI) &EZ_SK(LCTL) &EZ_SK(LALT)  &trans   ,   &trans    &kp LEFT &kp DOWN &kp UP  &kp RIGHT  ,  &trans ,
+        &trans  ,  X_UNDO       X_CUT        X_COPY       X_PASTE       X_REDO   ,   &trans    X_MSC_L   X_MSC_D   X_MSC_U     X_MSC_R  ,  &trans ,
                                 &mt LSFT CAPS , &sc FN_MEDIA_LAYER DEL , &trans  ,   &trans ,  &mo FN_MEDIA_LAYER , &EZ_LSK(RALT)
       )>;
     };
