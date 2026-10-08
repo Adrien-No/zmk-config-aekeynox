@@ -85,7 +85,7 @@
         &trans  ,  &none    X_CTL_W  &vim_prev &vim_next &none     ,   &kp HOME &kp PG_DN &kp PG_UP &kp END   &kp DEL ,  &trans ,
         &trans  ,  X_ALL    X_SAVE   X_SHTAB   &kp TAB   &none     ,   &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &none   ,  &trans ,
         &trans  ,  X_UNDO   X_CUT    X_COPY    X_PASTE   X_REDO    ,   X_MSC_L  X_MSC_D   X_MSC_U   X_MSC_R   &none   ,  &trans ,
-                  &mt LSFT CAPS , &sc FN_MEDIA_LAYER DEL , &trans  ,   &trans ,  &mo FN_MEDIA_LAYER , &EZ_LSK(RALT)
+              VIM_LTHUMB_TUCK , &sc FN_MEDIA_LAYER DEL , &trans    ,   &trans ,  &mo FN_MEDIA_LAYER , NAV_RTHUMB_TUCK
       )>;
     };
     // 4. NavNum layer -- inverted T arrow cluster on the left hand, numpad on the right hand
@@ -97,7 +97,7 @@
         &trans  ,  &kp ESC  &kp HOME &kp UP   &kp END   &kp PG_UP   ,   &to NUM_LOCK_LAYER S_N7  S_N8  S_N9  S_FSLH  ,  &trans ,
         &trans  ,  X_ALL    &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN   ,   S_MINUS            S_N4  S_N5  S_N6  S_N0    ,  &trans ,
         &trans  ,  X_UNDO   X_CUT    X_COPY   X_PASTE   X_REDO      ,   S_COMMA            S_N1  S_N2  S_N3  S_DOT   ,  &trans ,
-           NAV_LTHUMB_TUCK , &sc FN_MEDIA_LAYER DEL , &kp LS(TAB)   ,   &trans , &lt FN_MEDIA_LAYER LS(SPACE) , &EZ_LSK(RALT)
+           NAV_LTHUMB_TUCK , &sc FN_MEDIA_LAYER DEL , &kp LS(TAB)   ,   &trans , &lt FN_MEDIA_LAYER LS(SPACE) , NAV_RTHUMB_TUCK
       )>;
     };
 
@@ -110,7 +110,7 @@
         &trans  ,  &vim_prev    &kp LS(TAB)  &kp TAB      &vim_next     &trans   ,   &trans    &kp HOME &kp PG_DN   &kp PG_UP &kp END   ,  &trans ,
         &trans  ,  X_ALL        &EZ_SK(LGUI) &EZ_SK(LCTL) &EZ_SK(LALT)  &trans   ,   &trans    &kp LEFT &kp DOWN    &kp UP    &kp RIGHT ,  &trans ,
         &trans  ,  X_UNDO       X_CUT        X_COPY       X_PASTE       X_REDO   ,   &trans    X_MSC_L  X_MSC_D     X_MSC_U   X_MSC_R   ,  &trans ,
-                                &mt LSFT CAPS , &sc FN_MEDIA_LAYER DEL , &trans  ,   &trans ,  &mo FN_MEDIA_LAYER , &EZ_LSK(RALT)
+                             VIM_LTHUMB_TUCK , &sc FN_MEDIA_LAYER DEL , &trans   ,   &trans ,  &mo FN_MEDIA_LAYER , NAV_RTHUMB_TUCK
       )>;
     };
 
